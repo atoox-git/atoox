@@ -1,0 +1,60 @@
+{
+  "name": "@atoox/atoox",
+  "version": "6.0.0",
+  "description": "ATOOX — 73 skills IA pour construire votre idée. 5 skills gratuits (commit, pr, fix, oneshot, ultrathink). Parcours entrepreneur complet. Compatible Claude Code, Cursor, OpenClaw.ai et tout agent MCP.",
+  "type": "module",
+  "author": "Bertrand Bonnet <support@atoox.com>",
+  "license": "MIT",
+  "homepage": "https://atoox.com",
+  "bugs": {
+    "url": "https://atoox.com/contact"
+  },
+  "keywords": [
+    "atoox",
+    "claude-code",
+    "claude-code-skills",
+    "claude-desktop",
+    "ai-agents",
+    "ai-coding",
+    "ai-skills",
+    "openclaw",
+    "mcp",
+    "model-context-protocol",
+    "cursor",
+    "gemini",
+    "codex",
+    "commit",
+    "pull-request",
+    "fix-errors",
+    "code-review",
+    "code-quality",
+    "llm",
+    "productivity",
+    "entrepreneur",
+    "developer-tools",
+    "copilot-alternative",
+    "cursor-alternative",
+    "anthropic",
+    "claude"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "bin": {
+    "atoox": "bin/atoox.js",
+    "atoox-install": "bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "skills/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "postinstall": "node bin/install.js",
+    "test": "echo 'Skills are tested in your AI agent'"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
